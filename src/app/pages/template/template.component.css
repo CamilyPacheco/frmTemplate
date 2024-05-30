@@ -1,0 +1,36 @@
+/* template-form.component.css */
+:host {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #b84d9c;
+  }
+  
+  .contact-form {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .contact-form h3 {
+    color: #b84d9c;
+  }
+  
+  .contact-form .btn {
+    background-color: #b84d9c;
+    color: white;
+    border: none;
+  }
+  
+  .contact-form .btn:hover {
+    background-color: #9b3b7e;
+  }
+  
+  .contact-form .form-text {
+    color: red;
+  }
+  
